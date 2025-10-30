@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma web para ONGs: conheça nossa missão, projetos e doe para causas sociais.">
+    <meta name="keywords" content="ONG, doações, voluntariado, projetos sociais">
+    <title>ONG Exemplo - Página Inicial</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/logo-ong.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav aria-label="Navegação principal">
+            <img src="assets/img/logo-ong.png" alt="Logo da ONG Exemplo" class="logo">
+            <ul>
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" aria-labelledby="titulo-sobre">
+            <h1 id="titulo-sobre">Sobre a ONG Exemplo</h1>
+            <img src="assets/img/missao.jpg" alt="Imagem representando nossa missão de ajudar comunidades" loading="lazy">
+            <h2>Missão</h2>
+            <p>Promover o desenvolvimento sustentável e a inclusão social em comunidades carentes.</p>
+            <h2>Visão</h2>
+            <p>Ser referência em projetos sociais inovadores e transparentes.</p>
+            <h2>Valores</h2>
+            <p>Transparência, solidariedade e inovação.</p>
+        </section>
+
+        <section id="conquistas" aria-labelledby="titulo-conquistas">
+            <h2 id="titulo-conquistas">Nossas Conquistas</h2>
+            <ul>
+                <li>500 famílias assistidas em 2023</li>
+                <li>100 voluntários ativos</li>
+                <li>R$ 200.000 em doações arrecadadas</li>
+            </ul>
+        </section>
+
+        <section id="contato" aria-labelledby="titulo-contato">
+            <h2 id="titulo-contato">Entre em Contato</h2>
+            <img src="assets/img/contato.jpg" alt="Imagem de contato e engajamento" loading="lazy">
+            <form action="#" method="post" aria-labelledby="titulo-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 ONG Exemplo. Todos os direitos reservados.</p>
+        <p>Contato: contato@ongexemplo.com</p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
